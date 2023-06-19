@@ -63,7 +63,7 @@
         closeFullscreen();
         document.body.style.cursor = 'auto';
         jsPsych.endExperiment(`<div>
-        Your survey code is: <b> C8GNYXQW </br>
+        Your survey code is: <b> 189273 </br>
         You can close the browser to end the experiment now. </br>
                     The webcam will turn off when you close the browser. </br>
                      
@@ -119,7 +119,7 @@
     var start_exp_survey_trial = {
       type: jsPsychSurveyText,
       questions: [
-        {prompt: "What's your prolific ID?", rows: 2, columns:50 , required:true}, 
+        {prompt: "What's your toloka ID (needed for bonus payment)?", rows: 2, columns:50 , required:true}, 
         {prompt: "What's your age?", rows: 1, columns: 50, required:true},
         {prompt: "What's your gender? (Female/Male/Other)", rows: 1, columns: 50,require: true},
       ],
@@ -189,7 +189,7 @@
       will be implemented OR if the choice of another participant will be implemented for you. 
       <br> 
       <br>
-      <b> 100 points are worth 0.30£ (about 0.35€ or 130 Forint).  </b>
+      <b> 100 points are worth 0.37$ (about 21 Peso).  </b>
 
       </p>
       <br>
@@ -416,7 +416,7 @@
          <p>When you press the <strong>correct key</strong>, you win 10 points for your team, ${globalgroup_text}.</p>
          <p>But when you press the <strong>wrong key</strong>, your team looses 10 points.</p>
          <p>Bonus: If you're faster than a random person from the other team, you team wins 100 extra points.</p>
-         <p>${globalgroup_text} wins if you gather more points than ${globalothergroup_text}. The winning team gets a bonus payment of 0.60£ (about 0.70€ or 260 Forint). </br> </br></p> 
+         <p>${globalgroup_text} wins if you gather more points than ${globalothergroup_text}. The winning team gets a bonus payment of 0.74$ (about 42 Peso). </br> </br></p> 
          <p>Place your fingers on the keys to get ready. </p>
          <div style="display: flex; justify-content: space-between; align-items: center; flex-direction: row;">
          <div style="display: flex; flex-direction: column; align-items: center;">
@@ -527,7 +527,7 @@
       one of your own decisions is randomly chosen to be paid out to you and the other player. </br>
       OR </br>
       someone else's decision is randomly chosen to be paid out, and you receive what they decided. </p></br>
-      <p> 100 points are worth 0.30£ (about 0.35€ or 130 Forint). Each decision you make has the same chance to be picked to be paid out.<p/> 
+      <p> 100 points are worth 0.37$ (about 21 Peso). Each decision you make has the same chance to be picked to be paid out.<p/> 
 
       <p>Press <b>SPACE</b> to continue!</p>
       </div>
@@ -1021,7 +1021,7 @@
       type: jsPsychHtmlButtonResponse,
       stimulus: function() {
         return `
-         <p>In this task, you have 100 points that are worth 0.30£ (about 0.35€ or 130 Forint).</p> 
+         <p>In this task, you have 100 points that are worth 0.37$ (about 21 Peso).</p> 
          <p>You can keep these points to yourself, or you can give some or all of the points to another participant in this study. </p>
          <p>This other participant is either a member of your team, ${globalgroup_text}, or a member of the other team, ${globalothergroup_text}.</p>
          <p><strong>Would you like to know which team the other participant belongs to?</strong></p>`;
@@ -1316,7 +1316,7 @@
            })
            .done(function () {
             ("The experiment data has been saved successfully!" +
-            "Your survey code is: <b> C8GNYXQW." +
+            "Your survey code is: <b> 189273 </b>." +
             "You can close the browser to end the experiment now. " +
             "The webcam will turn off when you close the browser.")
            })

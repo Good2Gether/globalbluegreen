@@ -107,7 +107,7 @@ app.post("/data", function (request, response) {
     foldername = id;
     console.log("foldername: ", foldername);
     console.log("file: ", filename);
-    filename = "keeplookingglobal/"+foldername+"/"+filename;
+    filename = "philippines/"+foldername+"/"+filename;
     data = JSON.stringify(data);
     
     var data_s3 = {
